@@ -1,0 +1,61 @@
+
+#header{
+    position: fixed;
+    width: 100%;
+    height:auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    background-color:#161c2e;
+    color:white;
+    margin: 0;
+    padding:0;
+    display: block;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+.logo{
+    float: left;
+    display: block;
+    width:40%;
+}
+.navigation{
+    float: left;
+    display: block;
+    width: 20%;
+    text-align:center;
+}
+a{  
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:grey;
+}
+ .dropbtn {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:#161c2e;
+    color: white;
+    border: none;
+    font-weight: bold;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #161c2e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px grey;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color:white;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color:#161c2e;} 
